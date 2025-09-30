@@ -1,0 +1,1 @@
+App moved to repo root. Run `npm install && npm run dev`. Deploy on Vercel as Next.js (root = `/`).
