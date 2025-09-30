@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: "Secure TxDOT Plans Portal for Macias Specialty Contracting",
     images: ["https://drive.google.com/uc?export=view&id=10vRKmfFECcIub9fW-S-n5pR09bTntSa3"]
   },
-  themeColor: \"#f36f21\"
+  themeColor: "#f36f21"
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
