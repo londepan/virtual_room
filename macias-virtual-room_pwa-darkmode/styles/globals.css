@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 255 255 255;
+}
+
+body { @apply bg-white text-neutral-900; }
+.container { @apply mx-auto max-w-6xl px-4; }
+.btn { @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 text-sm font-medium transition; }
+.btn-primary { @apply bg-macias text-white hover:bg-macias-dark; }
+.btn-outline { @apply border border-neutral-200 hover:bg-neutral-50; }
+.card { @apply rounded-2xl border border-neutral-200 bg-white shadow-sm; }
+.card-h { @apply p-4 border-b; }
+.card-c { @apply p-4; }
+.card-f { @apply p-4 border-t; }
+.pill { @apply text-xs rounded-full px-2 py-0.5 bg-neutral-100; }
+.input { @apply w-full rounded-xl border border-neutral-300 px-3 py-2 outline-none focus:ring-2 focus:ring-macias; }
+.badge { @apply inline-flex items-center rounded-full border px-2 py-0.5 text-xs; }
+.link { @apply underline decoration-from-font underline-offset-4 hover:opacity-80; }
+
+
+/* Dark mode */
+.dark body { @apply bg-neutral-900 text-neutral-100; }
+.dark .card { @apply bg-neutral-800 border-neutral-700; }
+.dark .card-h, .dark .card-f { @apply border-neutral-700; }
+.dark .input { @apply bg-neutral-800 border-neutral-600 text-neutral-100; }
+.dark .btn-outline { @apply border-neutral-600 hover:bg-neutral-800; }
+.dark .pill { @apply bg-neutral-800; }
+.dark .badge { @apply border-neutral-600; }
