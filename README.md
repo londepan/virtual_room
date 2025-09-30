@@ -1,2 +1,1 @@
-# virtual_room
-A space for subcontractors to view and manage TxDot plans
+App moved to repo root. Run `npm install && npm run dev`. Deploy on Vercel as Next.js (root = `/`).
