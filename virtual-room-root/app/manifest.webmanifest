@@ -4,7 +4,6 @@
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f36f21",
-  "theme_color": "#f36f21",
   "description": "Secure TxDOT Plans Portal for Macias Specialty Contracting",
   "icons": [
     {
